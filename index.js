@@ -27,7 +27,7 @@ const connectToDatabase = async () => {
   });
 
   try {
-    // Attempt to connect to the database (does not require isConnected() check)
+    // Attempt to connect to th database (does not require isConnected() check)
     // await client.connect();
     db = client.db('scholarshipsDB');
   } catch (error) {
